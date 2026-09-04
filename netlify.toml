@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  command = "node scripts/netlify-build.js"
+  publish = "dist"
   functions = "netlify/functions"
 
 [build.environment]
